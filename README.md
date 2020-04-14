@@ -20,16 +20,15 @@ band='K_band/'
 path='/data/esanchez/Rosero_2016_all_data/TAR/'+band
 
 # Splatalogue - Files
-
-https://www.cv.nrao.edu/php/splat/index.php
+[Splatalogue](https://www.cv.nrao.edu/php/splat/index.php)
 
 After the initial variables you must download the files from Splatalogue and saved it in the 'Species' folder. The file must be download in '.tsv' format following the this two parameters. Field Separator: Tab
 Range: All Records
 
 The next step will be run the main script from casa interface using the command
-
+```
 execfile('PublicEdition_Script_RRL.py')
-
+```
 ### Source Selection
 
 The Script will ask for which sources or source do you want to run through. You have to enter the name of the source.
