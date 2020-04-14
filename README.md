@@ -1,13 +1,10 @@
 
 
-# Extraction
+# Installation and Configuration 
 
-The program contain 3 files and 1 folder 
-
-# Configuration 
+Extract the files in the path. 
 
 Before running the python program we need to define two variables inside the python script. 
-
 Open the **requirements.txt** and edit the band and path variables. Change the values of band and path for strings with the band of your observations and the path where you store your calibrate data.
  
 
