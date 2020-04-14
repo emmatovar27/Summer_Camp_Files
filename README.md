@@ -11,13 +11,14 @@ Before running the python program we need to define two variables inside the pyt
 
 Open the file Script_RRL.py and edit the line 9 and 10. Change the values of band and path for strings with the band of your observations and the path where you store your calibrate data.
  
-band = ''
-path = ''
+
+* band = ''
+ * path = ''
 
 Example: 
 
-band='K_band/'
-path='/data/esanchez/Rosero_2016_all_data/TAR/'+band
+* band='K_band/'
+* path='/data/esanchez/Rosero_2016_all_data/TAR/'+band
 
 # Splatalogue - Files
 [Splatalogue](https://www.cv.nrao.edu/php/splat/index.php)
