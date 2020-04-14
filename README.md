@@ -9,11 +9,11 @@ The program contain 3 files and 1 folder
 
 Before running the python program we need to define two variables inside the python script. 
 
-Open the file Script_RRL.py and edit the line 9 and 10. Change the values of band and path for strings with the band of your observations and the path where you store your calibrate data.
+Open the **requirements.txt** and edit the band and path variables. Change the values of band and path for strings with the band of your observations and the path where you store your calibrate data.
  
 
 * band = ''
- * path = ''
+* path = ''
 
 Example: 
 
@@ -26,24 +26,25 @@ Example:
 After the initial variables you must download the files from Splatalogue and saved it in the 'Species' folder. The file must be download in '.tsv' format following the this two parameters. Field Separator: Tab
 Range: All Records
 
+# Execution
+
 The next step will be run the main script from casa interface using the command
 ```
 execfile('PublicEdition_Script_RRL.py')
 ```
-### Source Selection
+## Source Selection
 
 The Script will ask for which sources or source do you want to run through. You have to enter the name of the source.
 
-### Fields Selection
+## Fields Selection
 
-If  the source has more than one field you can selected base on the number of the field.  
+If the source has more than one field you can selected base on the number of the field.  
 
-### Frequency Selection
+## Frequency Selection
 
-## If you have multiples files in the **Species** folder:
+### If you have multiples files in the **Species** folder:
  
 You must selected the file with the frequencies of interested. You must type name of the file.
-
 
 ### Imaging generation
 
