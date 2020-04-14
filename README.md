@@ -45,7 +45,7 @@ If  the source has more than one field you can selected base on the number of th
 You must selected the file with the frequencies of interested. You must type name of the file.
 
 
-###Imaging generation
+### Imaging generation
 
 The program will use the default  settings for each source that you selected. The output of the images will be located at /Output/'band'/'Source Name'
 
